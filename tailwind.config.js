@@ -7,26 +7,28 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        crimson: {
-          50: "#fef2f2",
-          100: "#fde6e6",
-          200: "#fbc8c8",
-          300: "#f8a3a3",
-          400: "#f47272",
-          500: "#C8374D",
-          600: "#B42D42",
-          700: "#9A2238",
-          800: "#7D1B2E",
-          900: "#5C1322",
-        },
-        brand: "#C8374D",
-        brandDark: "#B42D42",
-        surface: "#F5F5F7",
-        textPrimary: "#1A1A2E",
-        textSecondary: "#6B7280",
-        textMuted: "#9CA3AF",
+        brand: "#E8365D",
+        brandLight: "#ffeef3",
+        brandMuted: "#f9c9d6",
+        ink: "#1A1A2E",
+        inkSoft: "#4A4A6A",
+        inkMuted: "#9898B0",
+        surface: "#FFFFFF",
+        surface2: "#F7F7FB",
+        surface3: "#F0F0F8",
+        greenBrand: "#1DAA6B",
+        amberBrand: "#F59B00",
+        blueBrand: "#1A73E8",
       },
     },
+   theme: {
+    extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['DM Sans', 'sans-serif'],
+      },
+    },
+  },
   },
   plugins: [],
 };
