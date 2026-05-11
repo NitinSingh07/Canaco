@@ -27,9 +27,9 @@ export default function StepIndicator({ currentStep = 4 }) {
                   { 
                     height: 2, 
                     backgroundColor: isCompleted ? "#f9c9d6" : "rgba(26,26,46,0.08)", 
-                    marginHorizontal: -10,
+                    marginHorizontal: -12,
                     zIndex: 0,
-                    top: -10 // Align with center of circles
+                    marginBottom: 16 // Push line up to align with circle center
                   },
                 ]}
               />
